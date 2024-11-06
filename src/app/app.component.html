@@ -1,0 +1,9 @@
+
+<ng-container *ngIf="isAdmin; else userHeader">
+    <app-admin-header></app-admin-header>
+</ng-container>
+<ng-template #userHeader>
+    <app-header></app-header> 
+</ng-template>
+<router-outlet></router-outlet>
+<app-footer></app-footer>

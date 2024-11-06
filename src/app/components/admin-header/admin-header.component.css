@@ -1,0 +1,30 @@
+.navbar {
+    background-color: #f7f7f7; 
+    height: 50px;
+}
+
+.navbar .container-fluid {
+    margin: 5px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.icon {
+    font-size: 20px; 
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.icon:hover {
+    color: #000;
+}

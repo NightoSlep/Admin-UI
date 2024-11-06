@@ -1,0 +1,11 @@
+.content {
+    margin-left: 200px; 
+    padding-top: 20px;
+}
+
+.admin-layout {
+    display: flex;
+    background-color: #f7f7f7; 
+    padding: 20px; 
+    box-sizing: border-box;
+}
